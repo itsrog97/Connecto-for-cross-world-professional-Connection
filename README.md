@@ -4,7 +4,7 @@
 
 <p align="center"><b>A product-management case study:</b> auditing a web product, specifying a mobile MVP, and shipping a working Android app (v1.1.0) on React Native + Expo.</p>
 
-> **Disclaimer.** This is an independent, unofficial portfolio project. It is **not affiliated with, endorsed by or sponsored by Icebreaker Connect, Inc.** **Connectoo** is this project's own name; “Icebreaker” is used only to describe the service the client connects to. The app uses its own name, icon and wordmark, contains no Icebreaker artwork, and users sign in with their own existing account. Screenshots use fictional demo data.
+> **Disclaimer.** This is an independent, unofficial portfolio project. It is **not affiliated with, endorsed by or sponsored by ** **Connectoo** is this project's own name; “Connectoo” is used only to describe the service the client connects to. The app uses its own name, icon and wordmark, contains no Connectoo artwork, and users sign in with their own existing account. Screenshots use fictional demo data.
 
 <p align="center">
 <img src="docs/design-review/screens/03_home.png" width="190" alt="Home">
@@ -22,7 +22,7 @@
 ## The case study
 
 ### Problem
-Icebreaker is an MBA networking product that ships as a responsive website. On phones, the core loop — *find someone relevant → understand why to talk → start a conversation → keep up with replies* — means fighting a desktop-first layout, a hamburger menu and browser sessions. **Goal:** validate whether a native, mobile-first experience (branded **Connectoo**) could make that loop faster, without any backend changes.
+Connectoo is an MBA networking product that ships as a responsive website. On phones, the core loop — *find someone relevant → understand why to talk → start a conversation → keep up with replies* — means fighting a desktop-first layout, a hamburger menu and browser sessions. **Goal:** validate whether a native, mobile-first experience (branded **Connectoo**) could make that loop faster, without any backend changes.
 
 ### Approach
 | Phase | What I did | Output |
@@ -127,7 +127,7 @@ Alternatively use EAS Build (`npx eas-cli@latest build -p android`), which manag
 ## Environment variables
 | Variable | Default | Purpose |
 |---|---|---|
-| `EXPO_PUBLIC_API_BASE_URL` | `https://joinicebreaker.com` | Backend origin (e.g. a staging server) |
+| `EXPO_PUBLIC_API_BASE_URL` | `https://joinConnectoo.com` | Backend origin (e.g. a staging server) |
 
 Copy `.env.example` to `.env.local` to override. `EXPO_PUBLIC_*` values are compiled into the app — **never put secrets or credentials in them**.
 
