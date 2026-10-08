@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/app-icon.png" width="96" alt="App icon"></p>
 
-<h1 align="center">Connectoo — an unofficial Android app for the Icebreaker network</h1>
+<h1 align="center">Connectoo — an unofficial Android app for the Industry Alum network</h1>
 
 <p align="center"><b>A product-management case study:</b> auditing a web product, specifying a mobile MVP, and shipping a working Android app (v1.1.0) on React Native + Expo.</p>
 
